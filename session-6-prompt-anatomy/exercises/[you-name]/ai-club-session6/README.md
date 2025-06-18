@@ -1,54 +1,43 @@
-# React + TypeScript + Vite
+# AI Club Session 4 - Prompt Engineering Challenges
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Using This Project
 
-Currently, two official plugins are available:
+This project provides a realistic e-commerce dashboard foundation for practicing prompt engineering. Use it to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Generate new components** using structured prompts
+2. **Create custom hooks** for data fetching and state management
+3. **Build utility functions** for common operations
+4. **Debug and optimize** existing code
+5. **Add new features** using AI assistance
 
-## Expanding the ESLint configuration
+## Key Areas for Practice
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Components to Enhance/Create:
+- Login modal component
+- User profile dropdown
+- Search and filter components
+- Data tables with sorting/pagination
+- Form components with validation
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Hooks to Implement:
+- `useApiData` - Generic data fetching
+- `useLocalStorage` - Browser storage management
+- `useDebounce` - Input debouncing
+- `useAuth` - Authentication management
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Utilities to Build:
+- Form validation helpers
+- Date formatting functions
+- Currency formatting
+- Data transformation utilities
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Getting Started with Exercises
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clone this starter project**
+2. **Pick a challenge from the session exercises**
+3. **Use the 6-component prompt framework**
+4. **Test your prompts with AI tools**
+5. **Implement the generated code**
+6. **Document your results**
+
+Remember: The goal is to practice creating structured, effective prompts that generate production-quality code!

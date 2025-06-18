@@ -1,4 +1,5 @@
-# Session 4: Prompt Engineering for Software Developers
+# Session 6: Prompt Anatomy and Basic Challenges
+
 ## AI Club - The Gym | May 14, 2025
 
 ---

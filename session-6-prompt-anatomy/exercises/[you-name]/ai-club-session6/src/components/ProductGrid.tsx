@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-import { Product } from '../types/product'
+import { type Product } from '../types/product'
 
 // Sample data for demonstration
 const sampleProducts: Product[] = [
